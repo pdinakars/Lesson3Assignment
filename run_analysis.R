@@ -4,8 +4,8 @@ ytrainFile<-paste(getwd(),"/UCI HAR Dataset/train/y_train.txt",sep="")
 strainFile<-paste(getwd(),"/UCI HAR Dataset/train/subject_train.txt",sep="")
 
 #Read TEST data path
-XtestFile<-paste(getwd(),"/UCI HAR Dataset/test/X_train.txt",sep="")
-ytestFile<-paste(getwd(),"/UCI HAR Dataset/test/y_train.txt",sep="")
+XtestFile<-paste(getwd(),"/UCI HAR Dataset/test/X_test.txt",sep="")
+ytestFile<-paste(getwd(),"/UCI HAR Dataset/test/y_test.txt",sep="")
 stestFile<-paste(getwd(),"/UCI HAR Dataset/test/subject_test.txt",sep="")
 
 #Read features path
